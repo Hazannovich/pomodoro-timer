@@ -11,6 +11,8 @@ WORK_MIN = 1
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 SECS_IN_MIN = 60
+
+# Globals Variables
 g_reps = 1
 g_timer = None
 g_paused = 2
