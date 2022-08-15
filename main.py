@@ -136,9 +136,9 @@ check_marks.grid(column=1, row=3)
 
 # Buttons
 start_btn = Button(text="Start", fg=RED, highlightbackground=YELLOW, command=start_timer)
+start_btn.grid(column=0, row=2)
 reset_btn = Button(text="Reset", fg=RED, highlightbackground=YELLOW, command=reset_timer)
 reset_btn.grid(column=2, row=2)
-start_btn.grid(column=0, row=2)
 pause_btn = Button(text="Pause", fg=RED, highlightbackground=YELLOW, command=pause_timer)
 pause_btn.grid(column=1, row=2)
 
