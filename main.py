@@ -19,7 +19,7 @@ g_paused = 2
 g_count = 2
 
 
-# ---------------------------- TIMER RESET ------------------------------- #
+# ---------------------------- TIMER PAUSE/PLAY ------------------------------- #
 def pause_timer():
     global g_reps
     global g_paused
