@@ -106,8 +106,8 @@ def count_down(count):
     else:
         win.attributes('-topmost', 1)
         marks = ""
-        work_sessions = math.floor(g_reps / 2)
         g_reps += 1
+        work_sessions = math.floor(g_reps / 2)
         for _ in range(work_sessions):
             marks += "✔"
         check_marks.config(text=marks)
